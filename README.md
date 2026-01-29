@@ -1,0 +1,46 @@
+# pyorbbecsdk-community 1.4.2 installation at macOS
+
+## first install basic development tools 
+
+[macOS development](../0 development.md)
+
+## sync uv project
+
+```sh
+cd 1start
+uv sync
+source .venv/bin/activate
+```
+
+## run examples
+
+Always before examples, activate virtual environment
+
+```sh
+cd 1start
+source .venv/bin/activate
+```
+
+
+```sh
+# basic hello program for pyorbbecsdk
+python3 hello_orbbec.py
+
+# print support profiles for device
+python3 profiles.py
+
+# Displays the color stream from the camera.
+python3 color_viewer.py
+
+# Displays the depth stream from the camera.
+python3 depth_viewer.py
+
+# Demonstrates how to synchronize the depth and color streams.
+python3 depth_color_sync_align_viewer.py
+
+```
+
+
+
+
+
