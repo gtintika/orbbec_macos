@@ -31,7 +31,6 @@ cd ~/projects/orbbec_macos/1start
 source .venv/bin/activate
 ```
 
-
 ```sh
 # basic hello program for pyorbbecsdk
 python3 hello_orbbec.py
@@ -48,6 +47,13 @@ python3 depth_viewer.py
 # Demonstrates how to synchronize the depth and color streams.
 python3 depth_color_sync_align_viewer.py
 
+```
+
+## deactive project venv
+
+```
+deactivate
+cd 
 ```
 
 
