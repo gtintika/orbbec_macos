@@ -2,9 +2,13 @@
 
 ## first install basic development tools 
 
-[macOS development](../0 development.md)
+to install python & uv package manager
+
+[macos-guides](0%20development.md)
 
 ## clone git repository
+
+Open Terminal app at macOS and copy paste:
 
 ```sh
 # assume parent folder is ~/projects
@@ -24,7 +28,12 @@ source .venv/bin/activate
 
 ## run examples
 
-Always before examples, activate virtual environment
+Always before examples, we should activate virtual environment
+with command
+
+**source .venv/bin/activate**
+
+at terminal application
 
 ```sh
 cd ~/projects/orbbec_macos/1start
