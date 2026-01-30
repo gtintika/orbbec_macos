@@ -27,7 +27,7 @@ source .venv/bin/activate
 Always before examples, activate virtual environment
 
 ```sh
-cd 1start
+cd ~/projects/orbbec_macos/1start
 source .venv/bin/activate
 ```
 
