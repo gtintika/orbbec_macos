@@ -4,6 +4,16 @@
 
 [macOS development](../0 development.md)
 
+## clone git repository
+
+```sh
+# assume parent folder is ~/projects
+# choose any other
+mkdir -p ~/projects
+cd ~/projects
+git clone https://github.com/gtintika/orbbec_macos.git
+```
+
 ## sync uv project
 
 ```sh
