@@ -4,7 +4,7 @@
 
 to install python & uv package manager
 
-[macos-guides](https://github.com/gtintika/orbbec_macos/blob/main/macos-guides/0%20development.md)
+[macos prepare development](https://github.com/gtintika/orbbec_macos/blob/main/macos-guides/0%20development.md)
 
 ## clone git repository
 
