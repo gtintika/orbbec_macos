@@ -17,7 +17,7 @@ git clone https://github.com/gtintika/orbbec_macos.git
 ## sync uv project
 
 ```sh
-cd 1start
+cd orbbec_macos/1start
 uv sync
 source .venv/bin/activate
 ```
