@@ -22,7 +22,11 @@ git clone https://github.com/gtintika/orbbec_macos.git
 
 ```sh
 cd orbbec_macos/1start
+# pull from github changes
+git pull
+# install project dependencies
 uv sync
+# activate virtual environment
 source .venv/bin/activate
 ```
 
