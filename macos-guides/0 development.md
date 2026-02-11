@@ -15,6 +15,9 @@ Install next extensions :
 - [Black FormatterPreview](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
 - [Codex – OpenAI’s coding agent](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)
 - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+- [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
 
 You need to sign at OpenAI ChatGPT.  
@@ -155,3 +158,16 @@ Now when you have open a python file at `vsc` editor you can run it at vsc's `In
 
 Click icon symbol like a `play` button which corresponds to `vsc` command `Run Python File`    
 at right side of the File Bar at top of `vsc`
+
+
+### install zsh / ohmyzsh
+
+```shell
+brew install zsh git   
+```
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+
