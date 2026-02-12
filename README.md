@@ -6,7 +6,7 @@ to install python & uv package manager
 
 [macos prepare development](https://github.com/gtintika/orbbec_macos/blob/main/macos-guides/0%20development.md)
 
-## clone git repository
+## first time: clone git repository
 
 Open Terminal app at macOS and copy paste:
 
@@ -16,6 +16,14 @@ Open Terminal app at macOS and copy paste:
 mkdir -p ~/projects
 cd ~/projects
 git clone https://github.com/gtintika/orbbec_macos.git
+```
+
+## each time to get changes: git pull
+
+```sh
+# assume parent folder is ~/projects
+cd ~/projects/orbbec_macos
+git pull
 ```
 
 ## sync uv project
