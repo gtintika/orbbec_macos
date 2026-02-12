@@ -4,10 +4,14 @@ Tools for recording and playing back Orbbec camera streams using `.bag` files.
 
 > **Note (macOS):** Femto Mega and other UVC-class Orbbec cameras require `sudo` on macOS due to the `UVCAssistant` daemon holding exclusive access to UVC devices. Prefix commands with `sudo` if you get a device access error.
 
-## Setup
+## Setup & Refresh for changes
 
 ```bash
+cd ~/projects/orbbec_macos
+git pull
+
 cd bag_player
+
 uv sync
 # activate the virtual environment
 source .venv/bin/activate
