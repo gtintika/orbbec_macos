@@ -24,8 +24,6 @@ source .venv/bin/activate
 Opens the Orbbec camera, displays Color + Depth streams side-by-side, and allows recording to a `.bag` file.
 
 ```bash
-uv run record_bag.py
-# or with sudo if needed:
 sudo uv run record_bag.py
 ```
 
