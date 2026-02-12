@@ -1,0 +1,9 @@
+[project]
+name = "bag-player"
+version = "0.1.0"
+description = "Play back Orbbec .bag files"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyorbbecsdk-community==1.4.2",
+]
