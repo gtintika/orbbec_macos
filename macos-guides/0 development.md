@@ -11,14 +11,17 @@ Click `Extensions` icon at Left Side Icon Bar
 Install next extensions :  
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
-- [Black FormatterPreview](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
-- [Codex – OpenAI’s coding agent](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)
-- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+- [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
+- 
+- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+- [Black FormatterPreview](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) 
 - [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
+- [Codex – OpenAI’s coding agent](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)
+- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- [Gemini Code Assist](https://marketplace.visualstudio.com/items?itemName=Google.geminicodeassist)
 
 You need to sign at OpenAI ChatGPT.  
 Click the Codex icon at Left Side Icon Bar.  
@@ -27,7 +30,6 @@ Click `Log out` or `Log in` menu.
 
 
 `Codex` will be available from the `ChatGPT` icon at Icon Left Bar. 
-
 
 `Copilot Chat` will be available from the `Chat` icon at right of the top bar where the current folder is shown.
 
