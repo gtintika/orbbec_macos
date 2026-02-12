@@ -173,14 +173,38 @@ at right side of the File Bar at top of `vsc`
 
 ### install zsh / ohmyzsh
 
+replace bash with zsh
+
+[zsh](https://en.wikipedia.org/wiki/Z_shell)
+
+#### install zsh & git
+
+zsh is already the default shell at macOS after Catalina,
+so no need to install with brew
+
 ```shell
-brew install zsh git
+brew install git
 ```
+#### install ohmyz 
+
+[ohmyz](https://ohmyz.sh/)
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+Start a new terminal session (close Terminal App & restart it)
 
+Optional but very common) change theme
+
+change next line at `~/.zshrc`
+
+```
+ZSH_THEME="robbyrussell"
+```
+
+with the theme you preffer from
+
+[ohmyzsh themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 ### install next plugins for ohmyzsh
 
@@ -224,5 +248,10 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 autoload -U compinit && compinit
 source "$ZSH/oh-my-zsh.sh"
 ```
+
+
+### choose any other ohmyzsh plugin from
+
+[ohmyzsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins)
 
 
