@@ -95,15 +95,24 @@ python3 -V
 brew install zoxide
 
 echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
+```
 
-# now instead of use `cd` to go to an existing folder just give
+Start a new terminal session (close Terminal App & restart it)
 
-#z folder_name 
+now instead of use `cd` to go to an existing folder just give
+
+
+```shell
+# mkdir folder_name
+# cd folder_name
+#
+# folder_name added at db
+# 
+# z folder_name 
 # or
-#z part_of_folder_name
+# z part_of_folder_name
 
 # we have to cd at least once at folder folder_name and then we use z folder_name
-
 ```
 
 ```shell
@@ -165,11 +174,55 @@ at right side of the File Bar at top of `vsc`
 ### install zsh / ohmyzsh
 
 ```shell
-brew install zsh git   
+brew install zsh git
 ```
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+
+### install next plugins for ohmyzsh
+
+### zsh-autosuggestions
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
+Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+
+```
+plugins=( 
+  # other plugins...
+  zsh-autosuggestions
+)
+```
+Start a new terminal session (close Terminal App & restart it)
+
+### zsh-completions
+
+[zsh-completions](https://github.com/zsh-users/zsh-completions)
+
+
+Clone the repository into your custom plugins directory:
+
+```shell
+git clone https://github.com/zsh-users/zsh-completions.git \
+  ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+```
+
+Update your ~/.zshrc configuration with 1 line before sourcing oh-my-zsh:
+
+```
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+
+# before existing lines (do not add them)
+autoload -U compinit && compinit
+source "$ZSH/oh-my-zsh.sh"
 ```
 
 
