@@ -10,7 +10,7 @@ Tools for recording and playing back Orbbec camera streams using `.bag` files.
 cd ~/projects/orbbec_macos
 git pull
 
-cd bag_player
+cd bag_tools
 
 uv sync
 # activate the virtual environment
